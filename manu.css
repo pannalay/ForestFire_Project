@@ -18,9 +18,9 @@ body{
 }
 
 @media screen and (max-width: 425px) {
-.bar, .main-head{
-    background-position: center;
-    width: 418px;
+    .bar{
+        height: 300px;
+        width: 235%;
     }
 }
 
@@ -34,11 +34,12 @@ body{
     margin-right: 30px;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     .head1{
-        font-size: 60px;          
+        font-size: 50px;
     }
 }
+
 
 .mini-head{
     display: flex;
@@ -51,9 +52,11 @@ body{
 
 @media screen and (max-width: 425px) {
     .mini-head{
-        margin-left: 531px;
-    }
+        align-self: center;
+        justify-content: center;
 }
+}
+
 
 .menu{
     margin-top: auto;
@@ -79,11 +82,6 @@ body{
     display: flex;
 }
 
-@media screen and (max-width: 768px) {
-    .video-bar{
-        display: flex;
-    }
-}
 
 .video{
     width: 854px;
@@ -91,11 +89,6 @@ body{
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-    .video{
-        width: 1000px;
-    }
-}
 .fire-video{
     width: 100%;
     margin-top: 10px;
@@ -112,12 +105,6 @@ body{
     font-size: 25px;
 }
 
-@media screen and (max-width: 768px) {
-    .help{
-        margin-left: 230px;
-        margin-top: 30px;
-    }
-}
 
 .list-found{
     display: flex;
@@ -130,12 +117,6 @@ body{
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .list-found{
-        width: 800px;
-        margin: 100px;
-    }
-}
 
 .img-found{
     height: 350px;
@@ -209,12 +190,6 @@ body{
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .list-voluteer{
-        width: 800px;
-        margin: 100px;
-    }
-}
 
 .img-voluteer{
     height: 350px;
@@ -240,8 +215,8 @@ body{
 
 .big-content3{
     flex-direction: column;
-    align-items: center;
-    margin-left: 30px;
+    align-self: center;
+    margin-left: 130px;
     font-size: 18px;
 }
 
@@ -253,6 +228,9 @@ body{
     text-decoration: none;
     color: rgb(21, 30, 83);
     font-weight: 700;
+    border: 2px solid rgb(32, 39, 56);
+    border-radius: 8px;
+    padding: 5px 10px;
 }
 
 .list-donate{
@@ -266,12 +244,6 @@ body{
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .list-donate{
-        width: 800px;
-        margin: 100px;
-    }    
-}
 
 .img-donate{
     height: 350px;
